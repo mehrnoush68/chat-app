@@ -284,7 +284,7 @@ const user = {
    img: 'img/456.jpg'
 }
 
-const message = [
+const messages = [
    {
       id: 1,
       from: {
