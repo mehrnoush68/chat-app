@@ -6,13 +6,13 @@ The starting steps for a simple interactive chat interface.
 
 ### Outline and suggested timeline
 
-1️⃣. [Setup the Layout](#1-setup-the-layout) (15-20 mins)
+1. [Setup the Layout](#1-setup-the-layout) (15-20 mins)
    - Each student will complete
-2️⃣. [Custom Styling](#2-custom-styling) (45-60 mins)
+2. [Custom Styling](#2-custom-styling) (45-60 mins)
    - Group members will divide the tasks
-3️⃣. [Example Data](#3-example-data) (5-10 mins)
+3. [Example Data](#3-example-data) (5-10 mins)
    - Review data as a group to ensure it matches custom styling
-4️⃣. [Functionality](#4-functionality) (60-90 mins)
+4. [Functionality](#4-functionality) (60-90 mins)
    - Each student will take turns typing, others will support
 
 ⏱ Please keep an eye on the clock and ensure you are leaving yourself enough time to touch on each section.
