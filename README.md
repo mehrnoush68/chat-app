@@ -217,8 +217,9 @@ Add one more media query for larger screens
 @media screen and (min-width: 60em) {
   .others {
     width: 30em;
+    transform: translateX(-30em);
   }
-  .conversation {
+  .others.open ~ .conversation {
     margin-left: 30em;
   }
 }
@@ -247,14 +248,14 @@ Time to complete: 40-60 mins
 4. Create the HTML for the new chat `li`
 5. Fully style the `li` with a class of `.usercard` using CSS.
 6. Create a rule for elements with class `.selected` so that it's clear from the "Other Conversations" slide out panel that the active conversation is that conversation card
-7. Create a modified (if necessary) version of the card with a slightly bigger profile for the `header` of the `#conversation` block of the page, identifying the user you are speaking to
+7. Create a modified (if necessary) version of the card with a slightly bigger profile for the `header` of the `#conversation` block of the page, identifying the user you are speaking to. This should be stuck to the top of the `#conversation` block using `position: absolute;`.
 
 ### Input form
 1. Quickly wireframe the form that takes the input text from the user, include a few buttons if necessary
 2. Review as a group, consider revisions or other configurations before finalizing a choice
 3. Sketch the styling (borders, shadows, lines, spacing, shading, etc)
-4. Create the HTML for the new chat `form`. Give the msg input component an id of `message`. Give the `<form>` itself an id of `newMsg`.
-5. Fully style the `form` with a class of `.newmsg` using CSS.
+4. Create the HTML for the new chat `form`. Give the msg input component an id of `message`. Give the `<form>` itself an id of `newMsg`. The form will be inside of the `#conversation <footer>`
+5. Fully style the `form` with a class of `.newmsg` using CSS. The `<footer>` should be stuck to the bottom of the `#conversation` block using `position: absolute;`
 6. Consider what happens when a user has a longer message to type; test to ensure styling accounts for that
 7. Create appropriate style for mouse or form interactions, as well as consideration for an `.error` state
 
