@@ -10,53 +10,28 @@ As a team, you will:
 - Review the list of "Styling" tasks and decide which member will take on each task. After each styling task is complete, review the overall sight and make necessary adjustments to ensure the entire site is cohesive
 
 
-1. [Example Data](#Example-Data)
-2. [Setup the layout](#Setup-the-layout) (15-20 mins)
+
+1. [Setup the layout](#Setup-the-layout) (15-20 mins)
    - Each student will complete
-3. [Custom Styling](#Custom-Styling) (45-60 mins)
+2. [Custom Styling](#Custom-Styling) (45-60 mins)
    - Group members will divide the tasks
-1. [Functionality](#Functionality) (60-90 mins)
+3. [Example Data](#Example-Data) (5-10 mins)
+   - Review data as a group to ensure it matches custom styling
+4. [Functionality](#Functionality) (60-90 mins)
    - Each student will take turns typing, others will support
 
+
 ---
+## 1. Setup the layout
 
-## Example Data
+*Time to complete: 15-20 mins*
 
-Here's a set of simple data that can be cut/pasted into the javascript document. Also review this data closely to learn more about the application requirements. Your data may deviate from this any way necessary.
-
-```javascript
-const user = {
-   id: 456,
-   name: 'Charles Babbage',
-   img: 'img/456.jpg'
-}
-
-const message = [
-   {
-      id: 1,
-      from: {
-         id: 123,
-         name: 'Ada Lovelace',
-         img: 'img/123.jpg'
-      },
-      time: {
-         date: 1,
-         month: 8,
-         year: 1843,
-         hour: 14,
-         minute: 59
-      },
-      text: `You should check out this little script I just wrote. 😂 lol`
-   }
-]
-```
-
-
-## Setup the layout
-Time to complete: 15-20 mins
 **Each student should complete this independently, testing along the way**
 
-### "Mobile" friendly styling
+**TEST THE SITE LAYOUT IN ALL SCREEN SIZES AFTER EACH LETTER/STEP**
+---
+
+### A. Design system properties
 
 Create a block of styling properties. These are example values, change these as a group (add more if required).
 
@@ -80,6 +55,8 @@ Create a block of styling properties. These are example values, change these as 
 }
 ```
 
+### B. Document defaults
+
 Setup the document defaults. Adjust these as you see fit. Note the heading has properties that will affect other parts of the layout. Complete everything before adjusting these values.
 
 ```css
@@ -98,6 +75,8 @@ h1 {
 }
 ```
 
+### C. Top bar for branding (fixed)
+
 Add styling for the top banner. Modify content or style as needed.
 
 ```css
@@ -113,6 +92,8 @@ Add styling for the top banner. Modify content or style as needed.
   text-align: center;
 }
 ```
+
+### D. Side panel of contacts/conversations (fixed)
 
 Style the `other` side panel. Also noticed we're preparing for functionality as well when the `open` class gets added:
 
@@ -142,6 +123,8 @@ Style the `other` side panel. Also noticed we're preparing for functionality as 
   }
 ```
 
+### E. Toggle conversation window
+
 This is for the button 
 
 ```css
@@ -159,6 +142,8 @@ This is for the button
 }
 ```
 
+### F. Setup conversation window
+
 Adjust the conversation so it doesn't get content stuck under the fixed header.
 
 ```css
@@ -168,12 +153,11 @@ Adjust the conversation so it doesn't get content stuck under the fixed header.
 }
 ```
 
-**TEST THE SITE LAYOUT IN ALL SCREEN SIZES**
+### G. Medium screen styling
 
+Review the following styles for the first media query. 
 
-### Desktop styling
-
-Review the following styles for the first media query.
+**Note the drastic change to the functionality of the `.others` sidebar when the `open` class is added or removed. _Try it!_**
 
 ```css
 @media screen and (min-width: 40em) {
@@ -211,6 +195,8 @@ Review the following styles for the first media query.
 }
 ```
 
+### G. Larger screen styling
+
 Add one more media query for larger screens
 
 ```css
@@ -226,13 +212,15 @@ Add one more media query for larger screens
 ```
 
 
+---
+## 2. Custom Styling
 
-## Custom Styling
-Time to complete: 40-60 mins
+*Time to complete: 40-60 mins*
+
 **Each student will complete one of these for their group**
+---
 
-
-### Message block
+### A. Message block
 1. Quickly wireframe a single message block layout, adding all the properties of a `messages` Object that you deem useful/required
 2. Review as a group, consider revisions or other configurations before finalizing a choice
 3. Sketch the styling (borders, shadows, lines, spacing, shading, etc)
@@ -241,7 +229,7 @@ Time to complete: 40-60 mins
 6. Create a rule elements with class `.from-me` to overwrite styles given to `.message` to show it's from the logged in user
 7. Create a rule elements with class `.from-them` to do the same, but show it's from the opposite user
 
-### User card
+### B. User card
 1. Quickly wireframe a list item for a single user, including any relevant information (even if you have to make it up, or the data may be inaccessible)
 2. Review as a group, consider revisions or other configurations before finalizing a choice
 3. Sketch the styling (borders, shadows, lines, spacing, shading, etc)
@@ -250,7 +238,7 @@ Time to complete: 40-60 mins
 6. Create a rule for elements with class `.selected` so that it's clear from the "Other Conversations" slide out panel that the active conversation is that conversation card
 7. Create a modified (if necessary) version of the card with a slightly bigger profile for the `header` of the `#conversation` block of the page, identifying the user you are speaking to. This should be stuck to the top of the `#conversation` block using `position: absolute;`.
 
-### Input form
+### C. Input form
 1. Quickly wireframe the form that takes the input text from the user, include a few buttons if necessary
 2. Review as a group, consider revisions or other configurations before finalizing a choice
 3. Sketch the styling (borders, shadows, lines, spacing, shading, etc)
@@ -261,12 +249,52 @@ Time to complete: 40-60 mins
 
 
 
-## Functionality
-Time to complete: 60-90 mins
+---
+## 3. Example Data
+
+*Time to complete: 5-10 mins*
+
+**Review as a group; Modify to match your custom designs**
+---
+
+Here's a set of simple data that can be cut/pasted into the javascript document. Also review this data closely to learn more about the application requirements. Your data may deviate from this any way necessary.
+
+```javascript
+const user = {
+   id: 456,
+   name: 'Charles Babbage',
+   img: 'img/456.jpg'
+}
+
+const message = [
+   {
+      id: 1,
+      from: {
+         id: 123,
+         name: 'Ada Lovelace',
+         img: 'img/123.jpg'
+      },
+      time: {
+         date: 1,
+         month: 8,
+         year: 1843,
+         hour: 14,
+         minute: 59
+      },
+      text: `You should check out this little script I just wrote. 😂 lol`
+   }
+]
+```
+
+---
+## 4. Functionality
+
+*Time to complete: 60-90 mins*
+
 **Students will take turns writing into once code base, while the other group members work in support**
+---
 
-
-### 1. Toggle the conversation panel
+### A. Toggle the conversation panel
 
 Check out the JS in action by toggling the open/closed panel
 
@@ -277,7 +305,7 @@ document.getElementById(`btnOthers`).addEventListener('click', event => {
 ```
 
 
-### 2. Single message HTML
+### B. Single message HTML
 
 Create a function that returns the HTML for a single message (created above):
 
@@ -294,7 +322,7 @@ function getMessageAsHtml(msg) {
 Use template literals add the property values from the `msg` Object that's passed in (will come from `messages`). For example: `<p>${msg.text}</p>`.
 
 
-### 3. Render messages function
+### C. Render messages function
 
 ```javascript
 function renderConversation(arr) {
@@ -313,7 +341,7 @@ renderConversation(messages)
 2. Use `slice()` to only show the 20 most recent messages.
 
 
-### 4. Users/conversations
+### D. Users/conversations
 
 Create an Array of `conversations` that simply holds Objects with user information, as well as any other useful information you may need.
 
@@ -323,7 +351,7 @@ Complete the exact same steps as above to add all `conversations` to the `#other
 1. Before sending the `conversations` Array to its rendering function to be rendered, sort the users alphabetiaclly by their name, by researching the String comparison function `localeCompare()` and combining it with `sort()`
 
 
-### 5. Message customizations
+### E. Message customizations
 
 Returning to the `renderConversation` function, customize the messages being displayed in the current conversation.
 
@@ -331,7 +359,7 @@ Returning to the `renderConversation` function, customize the messages being dis
 Use an `if` statement to determine whether the message's `from` Object property matches the `username` Object (which is the active user). Add the appropriate class: `from-me` for the current user; Otherwise, give it the `from-them` class.
 
 
-### 6. Msg input
+### F. Msg input
 
 Collect information about the message and then create a new Object for the Array. Use the following code:
 
@@ -366,12 +394,12 @@ document.getElementById('newMsg').addEventListener('submit', e => sendMessage(e,
 2. Add the new Object to `msgs` (which is actually the full array!) by researching the Array `push()` method and passing the Object as an argument
 
 
-### 7. Conversation header
+### G. Conversation header
 
 Paste the HTML for the other user we're chatting with. Give the appropriate fields an id and fill in the information using javascript.
 
 
-### 8. Conversation footer
+### H. Conversation footer
 
 Paste the HTML for the `<form>`. Give the appropriate fields an id and fill in the information using javascript.
 
