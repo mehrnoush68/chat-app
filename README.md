@@ -1,21 +1,26 @@
 # Chat Interface
 
+The starting steps for a simple interactive chat interface.
 
 ## Steps to complete the assignment
 
-1. [Setup the Layout](#1-setup-the-layout) (15-20 mins)
+### Outline and suggested timeline
+
+1️⃣. [Setup the Layout](#1-setup-the-layout) (15-20 mins)
    - Each student will complete
-2. [Custom Styling](#2-custom-styling) (45-60 mins)
+2️⃣. [Custom Styling](#2-custom-styling) (45-60 mins)
    - Group members will divide the tasks
-3. [Example Data](#3-example-data) (5-10 mins)
+3️⃣. [Example Data](#3-example-data) (5-10 mins)
    - Review data as a group to ensure it matches custom styling
-4. [Functionality](#4-functionality) (60-90 mins)
+4️⃣. [Functionality](#4-functionality) (60-90 mins)
    - Each student will take turns typing, others will support
+
+⏱ Please keep an eye on the clock and ensure you are leaving yourself enough time to touch on each section.
 
 
 ### To summarize 
 
-**You will:**
+*You will...*
 
 - Have each team member go through the "Setup the Layout" steps independently, testing the layout after each block of css
 - Work together to decide on a colour scheme and write the values into a `:root` block as custom CSS properties *(you can revisit the styles again later!)*
@@ -23,6 +28,7 @@
 - Review the list of [Custom Styling](#2-custom-styling) tasks and decide which member will take on each task. After each styling task is complete, review the overall sight and make necessary adjustments to ensure the entire site is cohesive
 - Review the [Example Data](#3-example-data) to ensure all properties needed to accommodate your new custom styling/content are included
 - Walk through the [Functionality](#4-functionality), taking turns coding and supporting/researching 
+
 
 ### Submission
 
@@ -36,9 +42,9 @@
 ---
 ## 1. Setup the layout
 
-*Time to complete: 15-20 mins*
+*⏱ Time to complete: 15-20 mins*
 
-**Each student should complete this independently, testing along the way**
+**🎯 Each student should complete this independently, testing along the way**
 
 **TEST THE SITE LAYOUT IN ALL SCREEN SIZES AFTER EACH LETTER/STEP**
 ---
@@ -227,9 +233,9 @@ Add one more media query for larger screens
 ---
 ## 2. Custom Styling
 
-*Time to complete: 40-60 mins*
+*⏱ Time to complete: 40-60 mins*
 
-**Each student will complete one of these for their group**
+**🎯 Each student will complete one of these for their group**
 ---
 
 ### A. Message block
@@ -238,8 +244,9 @@ Add one more media query for larger screens
 3. Sketch the styling (borders, shadows, lines, spacing, shading, etc)
 4. Create the HTML for one chat message `article`
 5. Fully style the `article` with a class of `.message` using CSS.
-6. Create a rule elements with class `.from-me` to overwrite styles given to `.message` to show it's from the logged in user
-7. Create a rule elements with class `.from-them` to do the same, but show it's from the opposite user
+6. Create a rule for elements with class `.from-me` to overwrite styles given to `.message` to show it's from the logged in user
+7. Create a rule for elements with class `.from-them` to do the same, but show it's from the opposite user
+
 
 ### B. User card
 1. Quickly wireframe a list item for a single user, including any relevant information (even if you have to make it up, or the data may be inaccessible)
@@ -248,7 +255,8 @@ Add one more media query for larger screens
 4. Create the HTML for the new chat `li`
 5. Fully style the `li` with a class of `.usercard` using CSS.
 6. Create a rule for elements with class `.selected` so that it's clear from the "Other Conversations" slide out panel that the active conversation is that conversation card
-7. Create a modified (if necessary) version of the card with a slightly bigger profile for the `header` of the `#conversation` block of the page, identifying the user you are speaking to. This should be stuck to the top of the `#conversation` block using `position: absolute;`.
+7. Create a modified (if necessary) version of the card with a slightly bigger profile for the `header` of the `#conversation` block of the page, identifying the user you are speaking to. This should be stuck to the top of the `#conversation` block using `position: absolute;`
+
 
 ### C. Input form
 1. Quickly wireframe the form that takes the input text from the user, include a few buttons if necessary
@@ -264,9 +272,9 @@ Add one more media query for larger screens
 ---
 ## 3. Example Data
 
-*Time to complete: 5-10 mins*
+*⏱ Time to complete: 5-10 mins*
 
-**Review as a group; Modify to match your custom designs**
+**🎯 Review as a group; Modify to match your custom designs**
 ---
 
 Here's a set of simple data that can be cut/pasted into the javascript document. Also review this data closely to learn more about the application requirements. Your data may deviate from this any way necessary.
@@ -301,9 +309,9 @@ const message = [
 ---
 ## 4. Functionality
 
-*Time to complete: 60-90 mins*
+*⏱ Time to complete: 60-90 mins*
 
-**Students will take turns writing into once code base, while the other group members work in support**
+**🎯 Students will take turns writing into once code base, while the other group members work in support**
 ---
 
 ### A. Toggle the conversation panel
