@@ -44,9 +44,7 @@ The starting steps for a simple interactive chat interface.
 
 *⏱ Time to complete: 15-20 mins*
 
-**🎯 Each student should complete this independently, testing along the way**
-
-**TEST THE SITE LAYOUT IN ALL SCREEN SIZES AFTER EACH LETTER/STEP**
+**🎯 Each student should complete this independently, testing along the way. TEST THE SITE LAYOUT IN ALL SCREEN SIZES AFTER EACH LETTER/STEP**
 ---
 
 ### A. Design system properties
