@@ -11,13 +11,13 @@ As a team, you will:
 
 
 
-1. [Setup the layout](#1-Setup-the-layout) (15-20 mins)
+1. [Setup the layout](#1-setup-the-layout) (15-20 mins)
    - Each student will complete
-2. [Custom Styling](#Custom-Styling) (45-60 mins)
+2. [Custom Styling](#2-custom-styling) (45-60 mins)
    - Group members will divide the tasks
-3. [Example Data](#Example-Data) (5-10 mins)
+3. [Example Data](#3-example-data) (5-10 mins)
    - Review data as a group to ensure it matches custom styling
-4. [Functionality](#Functionality) (60-90 mins)
+4. [Functionality](#4-functionality) (60-90 mins)
    - Each student will take turns typing, others will support
 
 
