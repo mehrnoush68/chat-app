@@ -11,7 +11,7 @@ As a team, you will:
 
 
 
-1. [Setup the layout](#Setup-the-layout) (15-20 mins)
+1. [Setup the layout](#1-Setup-the-layout) (15-20 mins)
    - Each student will complete
 2. [Custom Styling](#Custom-Styling) (45-60 mins)
    - Group members will divide the tasks
