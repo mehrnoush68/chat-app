@@ -32,11 +32,11 @@ The starting steps for a simple interactive chat interface.
 
 ### Submission
 
-1. [] Ensure all code is captured in the Github repository
-2. [] Add all members names and student numbers to the README.md file
-3. [] Setup the site to be viewed live (do this asap!) through `Settings > Github Pages` (change the dropdown from `none` to `master`)
-4. [] Paste the live link to the Github repository's description (where the url goes, of course)
-5. [] Create a group DM on Slack with all members and the instructor, then paste send the Github page url only
+1. [ ] Ensure all code is captured in the Github repository
+2. [ ] Add all members names and student numbers to the README.md file
+3. [ ] Setup the site to be viewed live (do this asap!) through `Settings > Github Pages` (change the dropdown from `none` to `master`)
+4. [ ] Paste the live link to the Github repository's description (where the url goes, of course)
+5. [ ] Create a group DM on Slack with all members and the instructor, then paste send the Github page url only
 
 
 ---
