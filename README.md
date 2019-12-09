@@ -3,15 +3,7 @@
 
 ## Steps to complete the assignment
 
-As a team, you will:
-- Have one person create a repository and give collaborative access to each other member (you may also create an organization)
-- Decision on a colour scheme and write the values into a `:root` block as custom properties (you can revisit this later!)
-- Work as a team to review and complete each of the steps below on one of your computers. Once you agree they're complete, push the changes
-- Review the list of "Styling" tasks and decide which member will take on each task. After each styling task is complete, review the overall sight and make necessary adjustments to ensure the entire site is cohesive
-
-
-
-1. [Setup the layout](#1-setup-the-layout) (15-20 mins)
+1. [Setup the Layout](#1-setup-the-layout) (15-20 mins)
    - Each student will complete
 2. [Custom Styling](#2-custom-styling) (45-60 mins)
    - Group members will divide the tasks
@@ -19,6 +11,26 @@ As a team, you will:
    - Review data as a group to ensure it matches custom styling
 4. [Functionality](#4-functionality) (60-90 mins)
    - Each student will take turns typing, others will support
+
+
+### To summarize 
+
+**You will:**
+
+- Have each team member go through the "Setup the Layout" steps independently, testing the layout after each block of css
+- Work together to decide on a colour scheme and write the values into a `:root` block as custom CSS properties *(you can revisit the styles again later!)*
+- Have one person create a repository and give collaborative access to each other member (you may also create an organization). Once you agree on the layout code and custom properties, modify the local repository and then push the changes to a remote Github repo
+- Review the list of [Custom Styling](#2-custom-styling) tasks and decide which member will take on each task. After each styling task is complete, review the overall sight and make necessary adjustments to ensure the entire site is cohesive
+- Review the [Example Data](#3-example-data) to ensure all properties needed to accommodate your new custom styling/content are included
+- Walk through the [Functionality](#4-functionality), taking turns coding and supporting/researching 
+
+### Submission
+
+1. [] Ensure all code is captured in the Github repository
+2. [] Add all members names and student numbers to the README.md file
+3. [] Setup the site to be viewed live (do this asap!) through `Settings > Github Pages` (change the dropdown from `none` to `master`)
+4. [] Paste the live link to the Github repository's description (where the url goes, of course)
+5. [] Create a group DM on Slack with all members and the instructor, then paste send the Github page url only
 
 
 ---
