@@ -7,6 +7,7 @@
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
   </head>
@@ -23,6 +24,14 @@
           <h2>Other Conversations</h2>
           <ul>
             <!-- Conversation/user info goes here -->
+            <li class="usercard selected"> 
+                <div class="usercard-profile">
+                  <span class="material-icons">person</span>
+                </div>
+                <p class="usercard-name">Name</p>
+                <p class="usercard-message">last message</p>
+                <p class="usercard-number">2</p>
+              </li>
           </ul>
         </div>
         <button class="toggle-others" id="btnOthers"><span>chats</span></button>
@@ -41,15 +50,17 @@
 
 
         <section id="messages">
-          <button></button>
+            <article class="message">
+                <section id="from-me">Hi Phey, can you confirm the reservations for Sunna's birthday?</section>
+                <section id="for-me">Hey, Can you give me the full list of people who will be attending? </section>
+                <section id="from-me">Sure! I've just emailed them.</section>
+                <section id="for-me">Awesome, just give me a sec.
+                </section>
+                <section id="for-me">Just made the reservation,the party will be on the 14th of December at 9pm at The Drake Hotel.
+                </section>
+                <section id="from-me">Yay! I will let everyone know! It's going to be lit ;)</section>
+                <section id="for-me">She will be so happy!</section>
         </section>
-
-
-
-
-
-
-
 
         <footer>
           <!-- New msg form goes here -->

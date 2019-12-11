@@ -107,6 +107,56 @@
   .newmsg-send button{
       border: 1em;
   }
+.message{
+    background-color: var(--col-accent3);
+    padding-block: 2em;
+    border-radius: 1rem;
+    display: block;
+    margin-left: var(--col-accent2-fg);padding:1em;
+    font-family: var(--font-body);
+}
+.from-me{
+    text-align: right;
+    color: var(--col-action);
+}
+.for-me{
+    text-align: right;
+    color: var(--col-accent1);
+}
+.usercard {
+    background-color: rgb(228, 228, 228);
+    padding: 1em;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas:
+    "profile name num"
+    "profile mess num";
+    grid-gap: 1em;
+  }
+  .usercard-profile {
+    grid-area: profile;
+    height: 100%;
+  }
+  .usercard-message {
+    grid-area: mess;
+  }
+  .usercard-number {
+    grid-area: num;
+    background-color: white;
+    padding: .5em;
+    border-radius: 50%;
+    align-self: center; 
+    justify-self: center; 
+  }
+  .usercard span {
+    background-color: white;
+    padding: .5em;
+    border-radius: 50%;
+  }
+  .selected { 
+    background-color: rgb(230, 230, 230);
+  }
+
 
   @media screen and (min-width: 40em) {
     .others {
