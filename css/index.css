@@ -79,6 +79,35 @@
     padding: 0 1em;
     margin-top: 2.1875em;
   }
+  .newmsg {
+    background-color: var(--col-accent1);
+    color: var(--col-error-fg); 
+    padding: 2em 2em;
+    font: normal normal 0.5em impact;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 5fr 0.5fr;
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    z-index: 2;
+    margin-right: 2em ;
+  }
+  .newmsg button:hover {color: var(--col-accent3);}
+  .newmsg-input {
+      padding: 1em;  
+      border-radius: 0.5em; 
+      margin-left: 1em;
+  }
+  .newmsg button {
+    border: none;
+    background-color: var(--col-accent1);
+    color: var(--col-bg);
+    border-radius: 0.5em;
+  }
+  .newmsg-send button{
+      border: 1em;
+  }
+
   @media screen and (min-width: 40em) {
     .others {
       display: block;
